@@ -25,9 +25,9 @@
 #### 项目构建
 
 1. 首先我们要用我们新建的项目 构建出一款小游戏，此处用 字节跳动开发工具（微信小游戏同理）
-   ![image-20200227124905033](/Users/smile/jsroads/blog/codemix/README/image-20200227124905033.png)
+   ![image-20200227124905033](./README/image-20200227124905033.png)
 2. 等待构建完成后，我们开始在我们的根目录下面 新建一个 gulpfile.js 文件 作为我们的 gulp task
-3. ![image-20200227125159984](/Users/smile/jsroads/blog/codemix/README/image-20200227125159984.png)
+3. ![image-20200227125159984](./README/image-20200227125159984.png)
 
 gulp.js 内容如下
 
@@ -51,12 +51,12 @@ gulp.task("default", function (cb) {
 
 1. 选中项目内的gulp.js 鼠标右键
 
-![image-20200227131017350](/Users/smile/jsroads/blog/codemix/README/image-20200227131017350.png)
+![image-20200227131017350](./README/image-20200227131017350.png)
 
 2.  出现 gulp 窗口
-   ![image-20200227131127371](/Users/smile/jsroads/blog/codemix/README/image-20200227131127371.png)
+   ![image-20200227131127371](./README/image-20200227131127371.png)
 3. 双击这个 黑色的 default 运行我们的脚本
-   ![image-20200227131206618](/Users/smile/jsroads/blog/codemix/README/image-20200227131206618.png)
+   ![image-20200227131206618](./README/image-20200227131206618.png)
 4. 运行成功 查看我们的代码
    混淆前：
 
@@ -72,9 +72,9 @@ window['__require']=function t(_0xb8615a,_0x34ed8f,_0x3c13d3){function _0x45f71b
 
 5.替换文件后 模拟器运行：
 
-![image-20200227131556910](/Users/smile/jsroads/blog/codemix/README/image-20200227131556910.png)
+![image-20200227131556910](./README/image-20200227131556910.png)
 
-![image-20200227131606879](/Users/smile/jsroads/blog/codemix/README/image-20200227131606879.png)
+![image-20200227131606879](./README/image-20200227131606879.png)
 
 成功运行 没有报错。
 
@@ -85,23 +85,23 @@ window['__require']=function t(_0xb8615a,_0x34ed8f,_0x3c13d3){function _0x45f71b
 - 下载插件：Gulp Snippets===>主要作用就是识别gulp 
 - 下载插件Gulp Tasks==>主要是管理任务
 
-![image-20200227131940763](/Users/smile/jsroads/blog/codemix/README/image-20200227131940763.png)
+![image-20200227131940763](./README/image-20200227131940763.png)
 
 
 
 2. 然后导入我们的项目 开始选择我们的gulp
 
-![image-20200227132209115](/Users/smile/jsroads/blog/codemix/README/image-20200227132209115.png)
+![image-20200227132209115](./README/image-20200227132209115.png)
 
 出现 Gulp Tasks 管理窗口 同理双击运行：
 
-![image-20200227132308389](/Users/smile/jsroads/blog/codemix/README/image-20200227132308389.png)
+![image-20200227132308389](./README/image-20200227132308389.png)
 
 3. 以上就是 用 VScode 运行Gulp Task
 
 ### 简单说明一下
 
-![image-20200227132506448](/Users/smile/jsroads/blog/codemix/README/image-20200227132506448.png)
+![image-20200227132506448](./README/image-20200227132506448.png)
 
 这个就是 gulp 函数压缩的配置，这个插件还有更多的选项：
 
